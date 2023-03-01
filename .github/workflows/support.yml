@@ -1,11 +1,6 @@
 name: Support Requests
 
-on:
-  issues:
-    types:
-    - labeled
-    - unlabeled
-    - reopened
+on: [push] # one-run-to-find-them-all
 
 permissions:
   issues: write
